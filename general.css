@@ -1,0 +1,95 @@
+       .hero-section {
+            background-image: url('https://static.vecteezy.com/ti/vetor-gratis/p1/48782792-tecnologia-abstrata-futurista-conceito-digital-padrao-quadrado-com-iluminacao-de-particulas-brilhantes-elementos-quadrados-em-fundo-azul-escuro-vetor.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: -1;
+        }
+
+        .hero-section h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+        }
+
+        .hero-section .subtitle {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+        }
+
+        .hero-section .date-location {
+            font-size: 1.2rem;
+            margin-bottom: 40px;
+        }
+
+        .section-title {
+            margin-bottom: 40px;
+            font-size: 2.5rem;
+            text-align: center;
+        }
+
+        .speaker-card {
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .speaker-card img {
+            width: 150px; /* Força a largura */
+            height: 150px; /* Força a altura para ser igual à largura */
+            border-radius: 50%; /* Faz o círculo */
+            object-fit: cover; /* Recorta a imagem para preencher o círculo sem distorcer */
+            margin-bottom: 15px;
+            border: 3px solid #00bcd4; /* Adicionei a borda que você tinha no CSS original */
+        }
+
+        .speaker-card h3 {
+            font-size: 1.75rem;
+            margin-bottom: 10px;
+        }
+
+        .speaker-card .speaker-title {
+            color: #6c757d;
+            margin-bottom: 15px;
+        }
+
+        .registration-form .form-group {
+            margin-bottom: 20px;
+        }
+
+        .contact-list {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .contact-list li {
+            margin-bottom: 10px;
+        }
+
+        .social-links a {
+            margin: 0 10px;
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .social-links a:hover {
+            text-decoration: underline;
+        }

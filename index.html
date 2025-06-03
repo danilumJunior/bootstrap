@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechFuture Summit - TechConnect</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="icon" href="img/tech.jpeg">
+    <link rel="stylesheet" href="general.css">
+    
+</head>
+<body>
+
+    <header class="hero-section">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">TechConnect</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre-evento">Sobre o Evento</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#palestrantes">Palestrantes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#inscricao">Inscrição</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container hero-content">
+            <h1>TechFuture Summit</h1>
+            <p class="subtitle">Desvendando as tendências que moldarão o amanhã na tecnologia e no design.</p>
+            <p class="date-location">6 a 8 de Junho de 2025 | Centro de Convenções Unijorge</p>
+            <a href="#inscricao" class="btn btn-primary btn-lg mt-3">Inscreva-se Agora!</a>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        <section id="sobre-evento" class="py-5">
+            <h2 class="section-title">🚀 Sobre o TechFuture Summit</h2>
+            <p class="lead text-center">O <strong>TechFuture Summit</strong> é o principal evento da <strong>TechConnect</strong>, reunindo mentes brilhantes de desenvolvimento e design para explorar as inovações que estão redefinindo nosso mundo digital. Com palestras inspiradoras, workshops práticos e oportunidades de networking, o Summit é o lugar ideal para se conectar, aprender e crescer.</p>
+            <p class="lead text-center">Prepare-se para três dias de imersão total em inteligência artificial, realidade virtual, blockchain, UX/UI de próxima geração e muito mais. Não perca a chance de estar à frente das transformações!</p>
+        </section>
+
+        <hr>
+
+        <section id="palestrantes" class="py-5">
+            <h2 class="section-title">🗣️ Nossos Palestrantes</h2>
+            <div class="row speaker-grid justify-content-center">
+                <div class="col-md-5 mb-4">
+                    <div class="speaker-card shadow-sm">
+                        <img src="img/Felipe_neto.jpeg" class="img-fluid rounded-circle" alt="Foto de Felipe Neto">
+                        <h3>Felipe Neto</h3>
+                        <p class="speaker-title">Especialista em IA e Machine Learning</p>
+                        <p class="speaker-bio text-muted">Líder de pesquisa na NeuroTech Solutions, Felipe é pioneiro em algoritmos de aprendizado adaptativo para sistemas inteligentes.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-5 mb-4">
+                    <div class="speaker-card shadow-sm">
+                        <img src="img/Lucas_neto.jpeg" class="img-fluid rounded-circle" alt="Foto de Lucas Neto">
+                        <h3>Lucas Neto</h3>
+                        <p class="speaker-title">Arquiteto de Experiência do Usuário (UX)</p>
+                        <p class="speaker-bio text-muted">Com 15 anos de experiência, Lucas é conhecido por criar interfaces intuitivas que transformam a interação digital.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="inscricao" class="py-5">
+            <h2 class="section-title">📝 Garanta Sua Vaga!</h2>
+            <p class="lead text-center">Preencha o formulário abaixo para confirmar sua presença no TechFuture Summit. As vagas são limitadas!</p>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <form class="registration-form p-4 border rounded shadow-sm">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nome Completo:</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">E-mail:</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="company" class="form-label">Empresa (Opcional):</label>
+                            <input type="text" class="form-control" id="company" name="company">
+                        </div>
+                        <div class="mb-3">
+                            <label for="role" class="form-label">Cargo (Opcional):</label>
+                            <input type="text" class="form-control" id="role" name="role">
+                        </div>
+                        <div class="mb-3">
+                            <label for="presence-type" class="form-label">Tipo de Presença:</label>
+                            <select id="presence-type" name="presence-type" class="form-select">
+                                <option value="presencial">Presencial</option>
+                                <option value="online">Online</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-secondary btn-lg w-100">Confirmar Inscrição</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contato" class="bg-dark text-white py-5 text-center">
+        <div class="container">
+            <h2 class="section-title text-white mb-4">🤝 Conecte-se Conosco</h2>
+            <p class="lead mb-4">Sinta-se à vontade para entrar em contato com a equipe TechConnect para dúvidas, parcerias ou mais informações sobre o TechFuture Summit.</p>
+            <ul class="contact-list mb-4">
+                <li><strong>Organização:</strong> Unijorge Startup</li>
+                <li><strong>E-mail:</strong> <a href="mailto:danilojunior2016@outlook.com" class="text-white">danilojunior2016@outlook.com</a></li>
+                <li><strong>Telefone:</strong> <a href="tel:+557198712214" class="text-white">(71) 99871-2214</a></li>
+                <li><strong>Endereço:</strong> Unijorge, 123 - Pararela - BA</li>
+            </ul>
+            <div class="social-links mb-4">
+                <p>Siga-nos nas redes sociais:</p>
+                <a href="https://www.linkedin.com/in/danilo-bomfim-moreira-junior-b92b9b263/" target="_blank" class="text-white mx-2">LinkedIn</a>
+                <a href="https://x.com/Danilum_Junior" target="_blank" class="text-white mx-2">Twitter</a>
+                <a href="https://www.instagram.com/danilojunior_bm/" target="_blank" class="text-white mx-2">Instagram</a>
+            </div>
+            <p class="copyright mb-0">&copy; 2025 TechConnect. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
